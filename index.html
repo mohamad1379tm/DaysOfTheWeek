@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      .box-input {
+        height: 100vh;
+        background-color: black;
+        outline: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+      }
+
+      input {
+        width: 41%;
+        height: 40px;
+        color: white;
+        font-size: 24px;
+        padding: 20px;
+        border-radius: 17px;
+        border: 2px solid white;
+        background: black;
+        outline: 0;
+        
+      }
+      button {
+        width: 6%;
+        color: white;
+        font-size: 24px;
+        padding: 20px;
+        border-radius: 17px;
+        border: 2px solid white;
+        background: black;
+        margin-left: 10px;
+      }
+      .input{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .para{
+        color: white;
+        font-size: 22px;
+        margin-top: 20px;
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box-input">
+
+        <div class="input">
+            <input type="text" placeholder="Enter your number" />
+            <button>Click</button>
+        </div>
+        <div class="para">
+            <p></p>
+        </div>
+
+    </div>
+
+
+    <script>
+      let _input = document.getElementsByTagName("input")[0];
+      let _paragraph = document.getElementsByTagName("p")[0];
+      _input.addEventListener('click',function(){
+        _input.style.boxShadow = '0px 0px 22px 8px #7d7d7d'
+      })
+      document.getElementsByTagName("button")[0].addEventListener("click", () => {
+          switch (Number(_input.value)) {
+            case 1:
+              _paragraph.innerHTML = "Saturday";
+              break;
+            case 2:
+              _paragraph.innerHTML = "Sunday";
+              break;
+            case 3:
+              _paragraph.innerHTML = "Monday";
+              break;
+            case 4:
+              _paragraph.innerHTML = "Tuesday";
+              break;
+            case 5:
+              _paragraph.innerHTML = "Wednesday";
+              break;
+            case 6:
+              _paragraph.innerHTML = "Thursday";
+              break;
+            case 7:
+              _paragraph.innerHTML = "Friday";
+              break;
+            default:
+              break;
+          }
+        });
+    </script>
+  </body>
+</html>
