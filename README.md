@@ -3,6 +3,9 @@ Days of the Week in js (Tamrin)
 <h1 align="center">Hi 👋, I'm mohamad Teymouri</h1>
 <h3 align="center">A passionate frontend developer from Iran</h3>
 
+![Week](https://github.com/mohamad1379tm/DaysOfTheWeek/assets/102968485/98509610-5756-486d-9ebe-86b95f792875)
+
+
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=mohamad1379tm&label=Profile%20views&color=0e75b6&style=flat" alt="mohamad1379tm" /> </p>
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=mohamad1379tm" alt="mohamad1379tm" /></a> </p>
